@@ -60,7 +60,6 @@ The heart of this project is the implementation of the Minimax algorithm, a deci
 4. **Alpha-Beta Pruning**: Significantly reduces computation time by eliminating branches that won't affect the final decision
 
 **Implementation Details:**
-```cpp
 - **Depth-Limited Search**: Prevents excessive computation on larger boards
 - **Position Evaluation**: +100000 for AI wins, -100000 for human wins, 0 for draws/neutral
 - **Pruning Optimization**: Alpha-beta bounds eliminate up to 50% of search space
@@ -80,7 +79,7 @@ The `possibleMoves()` function implements intelligent move prioritization:
 2. **Full Board Fallback**: If no adjacent moves exist, considers all empty squares
 3. **Strategic Positioning**: Focuses search on relevant board areas
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - C++ compiler (GCC, Clang, or MSVC)
@@ -101,7 +100,9 @@ g++ tictactoe.cpp -o tictactoe
 # Run the game
 ./tictactoe
 
-## 📘 How to Play
+'''
+
+## How to Play
 
 ### **Game Setup**
 - **Choose Board Size:** Select any size from **3×3** up to **10×10**.
@@ -126,7 +127,7 @@ The game will:
 
 ---
 
-## 🏆 Winning Conditions
+## Winning Conditions
 
 ### **Small Boards (3×3, 4×4):**
 - Get **3 symbols in a row**
@@ -144,7 +145,7 @@ The final board is displayed with the winning pattern highlighted.
 
 ---
 
-## 📏 Game Rules
+## Game Rules
 
 ### **Board Sizes & Win Conditions**
 | Board Size | Win Condition | AI Difficulty |
@@ -156,7 +157,7 @@ The final board is displayed with the winning pattern highlighted.
 
 ---
 
-## ✔️ Move Validation
+## Move Validation
 - Coordinates must be **within board boundaries**
 - Selected square must be **empty**
 - Invalid moves **forfeit the turn**
