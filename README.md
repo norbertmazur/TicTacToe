@@ -100,7 +100,7 @@ g++ tictactoe.cpp -o tictactoe
 # Run the game
 ./tictactoe
 
-'''
+```
 
 ## How to Play
 
@@ -115,7 +115,7 @@ g++ tictactoe.cpp -o tictactoe
 
 ---
 
-## 🎯 Making Moves
+## Making Moves
 When prompted, enter:
 - **Row:** `0` to `board_size - 1`
 - **Column:** `0` to `board_size - 1`
