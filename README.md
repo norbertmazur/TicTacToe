@@ -5,12 +5,10 @@ A sophisticated implementation of Tic-Tac-Toe featuring an intelligent AI oppone
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Minimax Algorithm](#minimax-algorithm)
+- [Minimax Algorithm](##minimax-algorithm-with-alpha-beta-pruning)
 - [Getting Started](#getting-started)
 - [How to Play](#how-to-play)
 - [Game Rules](#game-rules)
-- [AI Difficulty](#ai-difficulty)
-- [Contributing](#contributing)
 
 ## Features
 
@@ -115,7 +113,7 @@ g++ tictactoe.cpp -o tictactoe
 
 ---
 
-## Making Moves
+### Making Moves
 When prompted, enter:
 - **Row:** `0` to `board_size - 1`
 - **Column:** `0` to `board_size - 1`
@@ -124,24 +122,6 @@ The game will:
 - Validate your input  
 - Inform you of errors  
 - Forfeit your turn if the move is invalid (with explanation)
-
----
-
-## Winning Conditions
-
-### **Small Boards (3×3, 4×4):**
-- Get **3 symbols in a row**
-
-### **Large Boards (5×5 and above):**
-- Get **5 symbols in a row**
-
-### **Valid Win Directions:**
-- Horizontal  
-- Vertical  
-- Diagonal  
-- Anti-diagonal  
-
-The final board is displayed with the winning pattern highlighted.
 
 ---
 
