@@ -5,7 +5,6 @@ A sophisticated implementation of Tic-Tac-Toe featuring an intelligent AI oppone
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Minimax Algorithm](##minimax-algorithm-with-alpha-beta-pruning)
 - [Getting Started](#getting-started)
 - [How to Play](#how-to-play)
 - [Game Rules](#game-rules)
